@@ -1,0 +1,28 @@
+body{
+  background: white ;
+
+}
+
+header{
+
+}
+
+section{
+      width: 335px !important;
+      height: 250px !important;
+      min-width: 0;
+      min-height: 0;
+      display: none;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      left: auto;
+      border: none;
+      background-color: #ffffff;
+      overflow: hidden;
+      z-index: 9145739864;
+      clip: auto;
+      border-radius: 3px;
+      box-shadow: rgb(181, 181, 181) 1px 1px 3px 2px;
+    "
+}
