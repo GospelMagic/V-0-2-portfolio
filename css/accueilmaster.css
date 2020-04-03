@@ -1,0 +1,82 @@
+body{
+  background: white ;
+
+}
+
+header{
+  background-color: grey ;
+  text-align: center;
+
+}
+
+.précédent{
+  background-color: green;
+
+}
+
+section{
+background-color: #ffff;
+    }
+
+.project-type-container{
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 85vh;
+  align-items: stretch;
+}
+
+.project-type-container > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.project-type-container > div > div{
+  flex-grow: 1;
+  width: 100vh;
+
+
+}
+.illustration-container{
+  background-color: red;
+
+}
+
+.publicité-container {
+  background-color: orange;
+
+}
+
+.typographie-container{
+  background-color: pink;
+
+
+}
+
+.photographie-container{
+  background-color: yellow;
+
+
+
+
+
+}
+
+.plus-sur-moi-container{
+  background-color: grey;
+
+
+
+
+}
+
+.contact-container{
+  background-color: purple;
+  text-align: center;
+  align-items: center;
+  overflow: auto;
+
+
+}
