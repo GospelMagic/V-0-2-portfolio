@@ -21,7 +21,6 @@ background-color: #ffff;
 .project-type-container{
   background-color: pink;
   display: flex;
-  justify-content: space-evenly;
   min-height: 85vh;
   align-items: stretch;
 }
@@ -29,7 +28,7 @@ background-color: #ffff;
 .project-type-container > div{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  flex-basis: 50%;
 
 }
 
