@@ -18,49 +18,55 @@ section{
 background-color: #ffff;
     }
 
+.project-type-container{
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 85vh;
+  align-items: stretch;
+}
+
+.project-type-container > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.project-type-container > div > div{
+  flex-grow: 1;
+  width: 100vh;
+
+
+}
 .illustration-container{
   background-color: red;
-  flex-direction: column 2;
-  float: right;
-
-  display: flex;
-  width: 50%;
-  height: 720px;
 
 }
 
 .publicité-container {
   background-color: orange;
-  height: 480px;
+
 }
 
 .typographie-container{
   background-color: pink;
-  flex-direction: column 2;
-  float: right;
-  width: 50%;
-  height: 480px;
-
 
 
 }
 
 .photographie-container{
   background-color: yellow;
-  width: 50%;
-  height: 720px;
-  flex-direction: column 2;
-  float: right;
+
+
+
 
 
 }
 
 .plus-sur-moi-container{
   background-color: grey;
-  width: 50%;
-  height: 480px;
-  flex-direction: column 1;
-  float: right;
+
 
 
 
@@ -69,7 +75,8 @@ background-color: #ffff;
 .contact-container{
   background-color: purple;
   text-align: center;
+  align-items: center;
+  overflow: auto;
 
-  float: none;
 
 }
