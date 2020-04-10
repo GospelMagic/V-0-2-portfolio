@@ -1,35 +1,10 @@
- @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 body {
-  font-family:
-  background-color: #eeb600;
-font-family: 'Orbitron'}
+  font-family: 'Oswald';
+  color: white;}
 
-h1{
-  font-family: monospace;
-  font-size: 3em;
-  background-color: grey;
-  margin-bottom: 1.25vh;
-  text-align: center;
-  color: white;
-
-}
-
-h2 {
-  font-size: 2em;
-  margin-bottom: 1em;
-
-
-}
-
-h3{
-
-}
-
-h4{
-
-}
-
-h5{
-
-
-}
+  header{
+    color: black;
+    font-size: 30px;
+  }

@@ -4,25 +4,28 @@ body{
 }
 
 header{
-  background-color: grey ;
+  background-color: white;
   text-align: center;
-
+  height: 100px;
 }
 
-.précédent{
-  background-color: green;
-
+a{
+  text-decoration-color: purple;
+  text-decoration: none;
 }
+
+
 
 section{
 background-color: #ffff;
     }
-
 .project-type-container{
   background-color: pink;
   display: flex;
   min-height: 85vh;
   align-items: stretch;
+  font-size: 40px;
+  color: white;
 }
 
 .project-type-container > div{
@@ -39,32 +42,32 @@ background-color: #ffff;
 
 }
 .illustration-container{
-  background-color: red;
+  background-color: black;
+  text-align: right;
+  justify-content: flex-end;
+  border-color: 5px yellow, solid;
 
 }
 
 .publicité-container {
-  background-color: orange;
+  background-color: black;
 
 }
 
 .typographie-container{
-  background-color: pink;
+  background-color: black;
 
 
 }
 
 .photographie-container{
-  background-color: yellow;
-
-
-
+  background-color: black;
 
 
 }
 
 .plus-sur-moi-container{
-  background-color: grey;
+  background-color: black;
 
 
 
@@ -72,10 +75,11 @@ background-color: #ffff;
 }
 
 .contact-container{
-  background-color: purple;
+  background-color: white;
   text-align: center;
   align-items: center;
   overflow: auto;
+  color: black;
 
 
 }
