@@ -15,17 +15,21 @@ a{
 }
 
 
+div{
+  display: block;
+}
+
 
 section{
 background-color: #ffff;
     }
+
 .project-type-container{
-  background-color: pink;
   display: flex;
   min-height: 85vh;
   align-items: stretch;
   font-size: 40px;
-  color: white;
+
 }
 
 .project-type-container > div{
@@ -35,43 +39,48 @@ background-color: #ffff;
 
 }
 
+.side-right {
+    position: relative;
+    overflow: auto;
+    height: auto;
+}
+
 .project-type-container > div > div{
   flex-grow: 1;
   width: 100vh;
-
-
 }
+
+
 .illustration-container{
   background-color: black;
   text-align: right;
   justify-content: flex-end;
-  border-color: 5px yellow, solid;
+  border: 1px solid white;;
 
 }
 
 .publicité-container {
   background-color: black;
+  border: 1px solid white;
 
 }
 
 .typographie-container{
   background-color: black;
-
+  border: 1px solid white;
 
 }
 
 .photographie-container{
   background-color: black;
-
-
+  border: 1px solid white;
+  padding-left: 10px;
 }
 
 .plus-sur-moi-container{
   background-color: black;
-
-
-
-
+  border: 1px solid white;
+  padding-left: 10px;
 }
 
 .contact-container{
@@ -80,6 +89,84 @@ background-color: #ffff;
   align-items: center;
   overflow: auto;
   color: black;
+  border: 1px solid white;
+  position: relative;
+}
 
+
+
+.side-left {
+	left: 0;
+	background: #47a3da;
+	color: #fff;
+	outline: 1px solid #47a3da; /* avoid gap */
+  position: fixed;
+  z-index: 100;
+  width: 20%;
+  text-align: center;
+  min-height: 100%;
+}
+
+.side-right {
+  right:0;
+  background-color: blue;
+  position: fixed;
+  z-index: 100;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.bloc-column1 {
+  right: auto;
+  position: relative;
+  z-index: 100;
+  background-color: black;
+  height: 100px;
+}
+
+.bloc-column2 {
+  position: relative;
+  background-color: pink;
+  height: 50px;
+}
+
+.bloc-column3 {
+  position: relative;
+  background-color: yellow;
+  width: 1em;
+  flex-wrap: wrap;
 
 }
+
+.ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    align-items: flex-start;
+    position: relative;
+    border: 3px solid red;
+}
+
+h1{ color: black;}
+
+h2{ color: black;}
+
+.list ul li {
+    width: 33%;
+    text-align: center;
+    padding: 100px;
+    margin: 20px 10px 10px;
+    display: inline-block;
+
+    vertical-align: top;
+    background-color: yellow;
+    align-items: space-around;
+    border: 3px solid red;
