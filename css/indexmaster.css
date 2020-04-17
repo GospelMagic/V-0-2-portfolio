@@ -155,7 +155,10 @@ background-color: #ffff;
     border: 3px solid red;
 }
 
-h1{ color: black;}
+h1{ color: black;
+font-size: 15px;
+text-align: center;
+}
 
 h2{ color: black;}
 
@@ -170,3 +173,19 @@ h2{ color: black;}
     background-color: yellow;
     align-items: space-around;
     border: 3px solid red;
+}
+
+.side-right ul li{
+  width: 10%;
+  height: 2em;
+  text-align: center;
+  padding: 100px;
+  margin: 20px 10px 10px;
+  display: inline-flex;
+
+  vertical-align: top;
+  background-color: yellow;
+  align-items: space-around;
+  border: 3px solid red;
+
+}
